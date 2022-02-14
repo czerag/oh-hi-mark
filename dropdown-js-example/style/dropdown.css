@@ -1,0 +1,41 @@
+body {
+    background: #eee;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    background: red;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.whitebox {
+    background: #fff;
+    padding: 2em;
+    margin: 2em;
+}
+.textbox {
+    height: 200px;
+    overflow: hidden;
+    text-align: left;
+}
+.textbox.active {
+    animation: imageAnimation 10s linear 0s;
+}
+
+
+@keyframes imageAnimation { 
+	0% {
+        height: 200px;
+	}
+	98% {
+	    height: 500px;
+	}
+	100% { height: 200px; }
+}
