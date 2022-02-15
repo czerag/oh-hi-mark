@@ -7,3 +7,4 @@ Training purposes repo
 
 1. Just started
 2. Made, reverted and made a change to the readme file again.
+3. Made a JS dropdown troll-example
